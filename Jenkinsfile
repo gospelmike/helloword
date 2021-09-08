@@ -8,24 +8,24 @@ pipeline {
       }
     }
   }
-      stages {
-    stage('Test') {
+    stages {
+     stage('Test') {
       steps {
        echo "test step"
        sleep 10
       }
     }
    }
-        stages {
-    stage('Deploy') {
+    stages {
+     stage('Deploy') {
       steps {
        echo "deploy step"
        sleep 10
       }
     }
   }
-       stages {
-    stage('Docker') {
+    stages {
+     stage('Docker') {
       steps {
        echo "image step"
        sleep 10
