@@ -7,6 +7,7 @@ pipeline {
        sleep 10
       }
     }
+  }
       stages {
     stage('Test') {
       steps {
@@ -14,6 +15,7 @@ pipeline {
        sleep 10
       }
     }
+   }
         stages {
     stage('Deploy') {
       steps {
@@ -21,6 +23,7 @@ pipeline {
        sleep 10
       }
     }
+  }
        stages {
     stage('Docker') {
       steps {
